@@ -63,6 +63,10 @@ class LoginForm(FlaskForm):
 
     submit = SubmitField('Login')
 
+#class genpass(FlaskForm):
+ #   def generate():
+ #       password = 'test'
+ #       return render_template("register.html",  password = password)
 
 @app.route('/')
 def home():

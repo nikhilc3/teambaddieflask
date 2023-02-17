@@ -30,6 +30,8 @@ def updateTime():
 
     return False
 
+
+@app.route('/generate_pass', methods=['GET'])
 def getPassAPI(length=3):
     password = []
     url = "https://random-words5.p.rapidapi.com/getMultipleRandom"
@@ -65,7 +67,6 @@ save_to_json(getPassAPI(5))
 if __name__ == "__main__":
     app.run(debug=True)
 
-@app.route('/hii')
-def home():
-    return render_template('hii.html')
-# Link to home page
+
+
+
