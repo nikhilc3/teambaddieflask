@@ -1,4 +1,4 @@
-flask
+Flask>=2.2.2
 requests
 SQLAlchemy
 Werkzeug
@@ -6,3 +6,6 @@ flask_login
 flask_sqlalchemy
 flask_migrate
 flask_restful
+pyjwt==2.0.0
+datetime
+uuid
