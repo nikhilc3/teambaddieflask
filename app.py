@@ -17,7 +17,7 @@ import string
 import json 
 import http.cookies as cookies
 
-
+   
 
 app = Flask(__name__) 
 #Creates a flask application instance and assigns it to the variable flask
